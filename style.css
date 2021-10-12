@@ -1,17 +1,21 @@
 li{
     float:left;
     display: block;
-    color: white;
     text-align: center;
     padding: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700
 }
 
 li:hover{
     color: rgb(46, 204, 113);
+}
+
+.colored_text{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: large;
+    color: white;
 }
 
 ul {
@@ -28,4 +32,21 @@ ul {
     margin: 0;
     padding: 0;
     background-color: rgb(11, 83, 69);
+}
+
+#intro_container{
+}
+
+#photo_container{
+    background-color:rgb(46, 204, 113); 
+    height:20em; 
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+#image{
+    height:15em; 
+    width:15em;
+    border-radius:50%;
 }
