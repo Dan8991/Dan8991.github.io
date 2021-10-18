@@ -70,3 +70,20 @@ i{
     justify-content: center;
     align-items: center;
 }
+
+#titles-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    padding: 30px;
+    color: rgb(11, 83, 69)
+}
+#text{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+    width: 60%;
+    padding: 30px;
+    text-align: justify;
+}
