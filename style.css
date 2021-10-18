@@ -87,3 +87,29 @@ i{
     padding: 30px;
     text-align: justify;
 }
+
+.download:hover{
+    background-color: rgb(11, 83, 69);
+}
+.download{
+    height: 3.5em;
+    width: 10em;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(11, 83, 69);
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#download_button{
+    display: flex; 
+    text-decoration: none;  
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a{
+    color: black;
+}
