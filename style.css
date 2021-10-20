@@ -71,7 +71,7 @@ i{
     align-items: center;
 }
 
-#titles-div{
+.titles-div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,4 +112,8 @@ i{
 
 a{
     color: black;
+}
+
+html{
+    scroll-behavior: smooth;
 }
