@@ -18,6 +18,17 @@ li:hover{
     color: white;
 }
 
+.project_text{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.project_titles{
+    color: rgb(11, 83, 69);
+    font-size: 2em;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,9 +56,22 @@ ul {
     grid-template-columns: 50% 50%;
 }
 
+#project_container{
+    height:20em; 
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
 #image{
     height:15em; 
     width:15em;
+    border-radius:50%;
+}
+
+#project_image{
+    height:30em; 
+    width:30em;
     border-radius:50%;
 }
 
