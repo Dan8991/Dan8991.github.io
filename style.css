@@ -114,6 +114,7 @@ i{
 
 .download:hover{
     background-color: rgb(11, 83, 69);
+    color: white;
 }
 .download{
     height: 3.5em;
