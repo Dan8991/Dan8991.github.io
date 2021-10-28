@@ -4,9 +4,12 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js" defer></script>
 </head>
 <body style="padding:0%; margin:0%">
-<div id="navbar">
+
+<div style="display: flex;">
+<div id="navbar" style="position: fixed;">
     <div style="width: 50%;">
         <ul class="colored_text">
             <li>
@@ -21,6 +24,7 @@
         </ul>
     </div> 
 </div>
+
 <div id="photo_container"> 
     <div style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center; padding-right:5em;">
         <img src=images/My_image.jpg id="image">
@@ -47,6 +51,7 @@
             </div>
         </div>    
     </div>
+</div>
 </div>
 
 <div style="width:100%;">
@@ -185,37 +190,44 @@
     <div id="Projects" class="titles-div"><b>PROJECTS</b></div>
 
     <div style="display: flex; justify-content: center;">
-        <div id="project_container"> 
-            <div style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center; padding-right:5em;  padding-bottom: 1.5em; padding-top:1.5em;">
-                <img src=images/gephy_2.png id="project_image">
-            </div>
-            <div style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center;">
-                <div id="intro_container">
-                    <text class="project_text project_titles">A Storm Of Nodes</text>
-                    <br>
-                    <br>
-                    <text class="project_text">A network science analysis of the relationships
-                    </text>
-                    <br>
-                    <text class="project_text">between characters in the third Game of Thrones book</text>
-                    <div style="display: flex; align-items: center;">
-                        <text class="project_text">Github: </text> 
-                        <a href=https://github.com/Dan8991/A-Storm-of-Nodes style="text-decoration: none;">
-                        <i class="devicon-github-original colored" style="font-size:1.5em; padding: 0em 0.5em;"></i>
-                        </a>
-                        <text class="project_text">Report 1: </text> 
-                        <a href="pdfs/homework1_NS.pdf">
-                        <i class="fa fa-file-pdf-o" style="font-size:1.5em; padding: 0em 0.5em;"></i>
-                        </a>
-                        <text class="project_text">Report 2: </text>
-                        <a href="pdfs/homework2_ns.pdf">
-                        <i class="fa fa-file-pdf-o" style="font-size:1.5em; padding: 0em 0.5em;"></i>
-                        </a>
+        <div id="project_container">
 
-                    </div>  
-                </div>    
+            <div class="projects" style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center; padding-right:5em;  padding-bottom: 1.5em; padding-top:1.5em;">
+                <div class="animated">
+                    <img src=images/gephy_2.png id="project_image">
+                </div>
             </div>
-            <div style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center;">
+            
+            <div class="projects" style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center;">
+                <div class="animated">
+                    <div id="intro_container">
+                        <text class="project_text project_titles">A Storm Of Nodes</text>
+                        <br>
+                        <br>
+                        <text class="project_text">A network science analysis of the relationships
+                        </text>
+                        <br>
+                        <text class="project_text">between characters in the third Game of Thrones book</text>
+                        <div style="display: flex; align-items: center;">
+                            <text class="project_text">Github: </text> 
+                            <a href=https://github.com/Dan8991/A-Storm-of-Nodes style="text-decoration: none;">
+                            <i class="devicon-github-original colored" style="font-size:1.5em; padding: 0em 0.5em;"></i>
+                            </a>
+                            <text class="project_text">Report 1: </text> 
+                            <a href="pdfs/homework1_NS.pdf">
+                            <i class="fa fa-file-pdf-o" style="font-size:1.5em; padding: 0em 0.5em;"></i>
+                            </a>
+                            <text class="project_text">Report 2: </text>
+                            <a href="pdfs/homework2_ns.pdf">
+                            <i class="fa fa-file-pdf-o" style="font-size:1.5em; padding: 0em 0.5em;"></i>
+                            </a>
+
+                        </div>  
+                    </div>    
+                </div>
+            </div>
+
+            <div class="animated" style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center;">
                 <div id="intro_container">
                     <text class="project_text project_titles">Cellular Lymphoma Automatic <br> Classification</text>
                     <br>
@@ -228,13 +240,16 @@
                     </div>  
                 </div>    
             </div>
-            <div style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center; padding-left:5em;  padding-bottom: 1.5em; padding-top:1.5em;">
+
+            <div class="animated" style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center; padding-left:5em;  padding-bottom: 1.5em; padding-top:1.5em;">
                 <img src=images/lymphoma.jpg id="project_image">
             </div>
-            <div style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center; padding-right:5em; padding-bottom: 1.5em; padding-top:1.5em;">
+
+            <div class="animated" style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center; padding-right:5em; padding-bottom: 1.5em; padding-top:1.5em;">
                 <img src=images/Cyber-security.png id="project_image">
             </div>
-            <div style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center;">
+
+            <div class="animated" style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center;">
                 <div id="intro_container">
                     <text class="project_text project_titles">Information Security Homeworks</text>
                     <br>
@@ -290,9 +305,35 @@
                     </div> 
                 </div>    
             </div>
+
+            <div class="animated" style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center;">
+                <div id="intro_container">
+                    <text class="project_text project_titles">Sudoku Solver</text>
+                    <br>
+                    <br>
+                    <text class="project_text">GUI made in python with tkinter for generating new sudokus <br> and for solving them
+                    </text>
+                    <br>
+                    <br>
+                    <div style="display: flex; align-items: center;">
+                        <text class="project_text">Github: </text> 
+                        <a href=https://github.com/Dan8991/Sudoku_solver style="text-decoration: none;">
+                        <i class="devicon-github-original colored" style="font-size:1.5em; padding: 0em 0.5em;"></i>
+                        </a>
+                    </div>  
+                </div>    
+            </div>
+
+            <div class="animated" style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center; padding-left:5em;  padding-bottom: 1.5em; padding-top:1.5em;">
+                <img src=images/sudoku.png id="project_image">
+            </div>
+            
+        <div id="text" style="height:5em; width:100%; display: flex; justify-content: center; align-items: center; grid-column-start: 1; grid-column-end: 3;">
+                Copyright © Daniele Mari
+        </div>
         </div>
     </div>
 </div>
-
 </body>
+
 </html>
