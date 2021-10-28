@@ -84,10 +84,40 @@ ul {
     border-radius:50%;
 }
 
-#project_image{
+img{
+    border-radius: 50%;
+}
+
+.project_image{
     height:20em; 
     width:20em;
     border-radius:50%;
+}
+
+.right{
+    grid-column-start:2;
+    grid-column-end:3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.right_image{
+    padding-left:5em;
+    padding-bottom: 1.5em;
+    padding-top:1.5em;
+}
+
+.left{
+    grid-column-start:1;
+    grid-column-end:2;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.left_image{
+    padding-right:5em;
+    padding-bottom: 1.5em;
+    padding-top:1.5em;
 }
 
 i{
