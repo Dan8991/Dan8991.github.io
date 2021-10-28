@@ -63,14 +63,24 @@ ul {
     grid-template-columns: 50% 50%;
 }
 
-.project-animation{
+.project-animation-right{
     z-index: -1;
-    animation: appear 4s 1;
+    animation: appear_right 1.5s 1 ease-out;
 }
 
-@keyframes appear{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+@keyframes appear_right{
+    0% {opacity: 0; transform: translate(-200px, 0px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+.project-animation-left{
+    z-index: -1;
+    animation: appear_left 1.5s 1 ease-out;
+}
+
+@keyframes appear_left{
+    0% {opacity: 0; transform: translate(200px, 0px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
 }
 
 .projects{
