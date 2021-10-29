@@ -68,8 +68,18 @@ ul {
     animation: appear_right 1.5s 1 ease-out;
 }
 
+.project-animation-bottom{
+    z-index: -1;
+    animation: appear_bottom 1.5s 1 ease-out;
+}
+
 @keyframes appear_right{
     0% {opacity: 0; transform: translate(-200px, 0px);}
+    100% {opacity: 1; transform: translate(0px, 0px);}
+}
+
+@keyframes appear_bottom{
+    0% {opacity: 0; transform: translate(0px, 200px);}
     100% {opacity: 1; transform: translate(0px, 0px);}
 }
 
