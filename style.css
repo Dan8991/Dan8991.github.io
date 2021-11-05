@@ -48,15 +48,15 @@ ul {
 }
 
 #photo_container{
-    background-color:rgb(46, 204, 113); 
+    background-color:rgb(11, 83, 17);; 
     height:20em; 
     width:100%;
     margin-top: 3.8em;
     display:grid;
     grid-template-columns: 50% 50%;
-    /* background-image: url(images/city.jpg); */
-    /* background-size: cover; */
-    /* background-blend-mode: multiply; */
+    background-image: url(images/city.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 #project_container{
