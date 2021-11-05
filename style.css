@@ -67,12 +67,10 @@ ul {
 }
 
 .project-animation-right{
-    z-index: -1;
     animation: appear_right 1.5s 1 ease-out;
 }
 
 .project-animation-bottom{
-    z-index: -1;
     animation: appear_bottom 1.5s 1 ease-out;
 }
 
@@ -87,7 +85,6 @@ ul {
 }
 
 .project-animation-left{
-    z-index: -1;
     animation: appear_left 1.5s 1 ease-out;
 }
 
@@ -97,7 +94,6 @@ ul {
 }
 
 .projects{
-    z-index: -1;
 }
 
 #image{
