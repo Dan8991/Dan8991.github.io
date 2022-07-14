@@ -10,42 +10,42 @@
 <body style="padding:0vw; margin:0vw; width:100vw">
 
 <div style="display: flex; justify-content: center;">
-    <div id="navbar" style="position: fixed; z-index: 10;">
+    <div id="navbar">
         <div style="width: 50vw;">
             <ul class="colored_text">
                 <li>
-                    <a href="#ABOUT" style="text-decoration: none; color:white;"><b class="navbar_button">ABOUT</b></a>
+                    <a href="#ABOUT" class="navbar_href"><b class="navbar_button">ABOUT</b></a>
                 </li>
                 <li>
-                    <a href="#Publications" style="text-decoration: none; color:white;"><b class="navbar_button">PUBLICATIONS</b></a>
+                    <a href="#Publications" class="navbar_href"><b class="navbar_button">PUBLICATIONS</b></a>
                 </li>
                 <li>
-                    <a href="#Projects" style="text-decoration: none; color:white;"><b class="navbar_button">PROJECTS</b></a>
+                    <a href="#Projects" class="navbar_href"><b class="navbar_button">PROJECTS</b></a>
                 </li>
             </ul>
         </div> 
     </div>
 
-    <div id="photo_container" style="width:100vw"> 
-        <div style="grid-column-start:1; grid-column-end:2; display: flex; justify-content: right; align-items: center; padding-right:5vw;">
+    <div id="photo_container"> 
+        <div id="header_image">
             <img src=images/My_image.jpg id="image">
         </div>
-        <div style="grid-column-start:2; grid-column-end:3; display: flex; justify-content: left; align-items: center;">
+        <div id="info_grid">
             <div id="intro_container">
                 <text class="colored_text", style="font-size: 3vw;">Daniele Mari</text>
-                <br style="display:block; margin:1ew">
+                <br class="break">
                 <text class="colored_text" style="font-size: 1.7vw;">Currently pursuing Ph.D. in Information Engineering</text>
-                <br style="display:block; margin:1ew">
+                <br class="break">
                 <div style="display: flex; align-items: center;">
                     <text class="colored_text" style="font-size: 1.7vw">Contacts:</text> 
                     <a href="https://github.com/Dan8991" style="text-decoration: none;">
-                        <i class="devicon-github-original colored" style="font-size: 1.7vw; padding: 0.3vw 0.15vw; color:white;"></i>
+                        <i class="devicon-github-original colored" id="header_icons"></i>
                     </a>
                     <a href="mailto: daniele.mari@phd.unipd.it">
-                        <i class="fa fa-envelope" style="font-size: 1.7vw; padding: 0.3vw 0.15vw; color:white;"></i>
+                        <i class="fa fa-envelope" id="header_icons"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/daniele-mari-87a2491b9/" style="text-decoration: none;">
-                        <i class="fa fa-linkedin" style="font-size: 1.7vw; padding: 0.3vw 0.15vw; color:white;" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" id="header_icons" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>    
@@ -53,14 +53,13 @@
     </div>
 </div>
 
-<div id="ABOUT" style="height:3vw;">
-</div>
+<br class="break">
 
 <div style="width:100vw;">
     <div>
         <div class="titles-div"><b>ABOUT</b></div>
 
-        <div style="display: flex; justify-content: center;">
+        <div class="center_flex">
             <div id="text"> 
                 <b> School and education: </b>I am currently a Ph.D. student in Information Engineering at 
                 Università degli studi di Padova. I graduated there in 
@@ -77,8 +76,8 @@
     </div>
 </div>
 
-<div class="projects_left" style="display: flex; justify-content: center; padding:0.1vw;">
-    <div class="animated_left" style="display: grid;">
+<div class="center_flex">
+    <div style="display: grid;">
 
             <div style="grid-column-start: 0; grid-column-end: 1;">
 
@@ -98,7 +97,7 @@
             </div>
             <div class="styled-grid" style="grid-column-start: 1; grid-column-end: 2; display: flex; justify-content: center;">
                 <i class="devicon-python-plain colored"></i>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" style="height: 2.5vw; width:2.5vw"/>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" class="http_icons"/>
                 <i class="devicon-java-plain colored"></i>
                 <i class="devicon-c-plain colored"></i>
             </div>
@@ -106,9 +105,9 @@
                 <i class="devicon-numpy-original colored"></i>
                 <i class="devicon-pandas-original-wordmark colored"></i>
                 <i class="devicon-tensorflow-original colored"></i>
-                <img src=images/pytorch-logo-2.png style="height: 2.5vw; width:2.5vw">
-                <img src=images/sklearn.png style="height: 2.5vw; width:2.5vw">
-                <img src=images/scipy.png style="height: 2.5vw; width:2.5vw">
+                <img src=images/pytorch-logo-2.png class="http_icons">
+                <img src=images/sklearn.png class="http_icons">
+                <img src=images/scipy.png class="http_icons">
             </div>
             <div class="styled-grid" style="grid-column-start: 3; grid-column-end: 4; display: flex; justify-content: center;">
                 <i class="devicon-jupyter-plain colored"></i>
@@ -152,7 +151,7 @@
                 <i class="devicon-android-plain colored"></i>
                 <i class="devicon-photoshop-line colored"></i>
                 <i class="devicon-unity-original colored"></i>
-                <img src=images/Blender_logo_no_text.svg.png style="height: 2.5vw; width:2.5vw">
+                <img src=images/Blender_logo_no_text.svg.png class="http_icons">
             </div>
     </div>
 </div>

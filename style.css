@@ -49,6 +49,8 @@ ul {
     padding: 0;
     width:100vw;
     background-color: rgb(11, 83, 69);
+    position: fixed; 
+    z-index: 10;
 }
 
 #photo_container{
@@ -97,7 +99,9 @@ ul {
     100% {opacity: 1; transform: translate(0px, 0px);}
 }
 
-.projects{
+.center_flex{
+    display: flex;
+    justify-content: center;
 }
 
 #image{
@@ -218,4 +222,42 @@ a{
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+.navbar_href{
+    text-decoration: none; 
+    color:white;
+}
+
+#header_image{
+    grid-column-start:1;
+    grid-column-end:2; 
+    display: flex; 
+    justify-content: right; 
+    align-items: center; 
+    padding-right:5vw;
+}
+
+#info_grid{
+    grid-column-start:2;
+    grid-column-end:3;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.break{
+    display:block;
+    margin:1ew;
+}
+
+#header_icons{
+    font-size: 1.5vw; 
+    padding: 0.3vw 0.15vw; 
+    color:white;
+}
+
+.http_icons{
+    height: 2.5vw;
+    width:2.5vw
 }
