@@ -53,6 +53,18 @@ ul {
     z-index: 10;
 }
 
+@media only screen and (max-width: 768px){
+    #navbar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar_button{
+       font-size: 2.8vw;
+    }
+}
+
+
 #photo_container{
     background-color:rgb(11, 83, 17);; 
     height:25vw; 
